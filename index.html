@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart New</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div>
+      <h1>Market</h1>
+
+      <ul>
+        <li><a class="add-to-cart" href="#" data-name="Apple" data-price="0.79">Apple- $0.79 each</a></li>
+        <li><a class="add-to-cart" href="#" data-name="Banana" data-price="0.29">Banana- $0.29 each</a></li>
+        <li><a class="add-to-cart" href="#" data-name="Orange" data-price="0.59">Orange- $0.59 each</a></li>
+      </ul>
+
+      <div class="cart">
+        <h2>Cart</h2>
+        <ul id="show-cart">
+          <p>No Items in Cart</p>
+            <!-- cart contents will go here -->
+        </ul>
+          <!-- cart totals in spans below -->
+        <div>Cart Total: $<span id="total-cart">0</span></div>
+        <div>Cart Units: <span id="units-cart">0</span></div>
+      </div>
+
+      <button id="clear-cart">Clear Cart</button>
+    </div>
+
+    <script   src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.remove-item {
+  background-color: yellow;
+}
+
+.add-item {
+  background-color: green;
+}
+
+.delete-item,
+#clear-cart {
+  background-color: red;
+}
